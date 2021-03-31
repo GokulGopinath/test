@@ -1,0 +1,17 @@
+.App {
+  text-align: center;
+}
+.center{
+  display: flex;
+  justify-content: center;
+}
+
+.particles{
+  position: fixed; /*Now everything is visible*/
+  z-index: -1; /*Now all the particles should be below everything on website*/
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+
+}
